@@ -468,7 +468,8 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
           if (_isDisposed) {
             return;
           }
-          final Duration? newPosition = await position;
+          //final Duration? newPosition = await position;
+          final Duration? newPosition = null;
           final DateTime? newAbsolutePosition = await absolutePosition;
           // ignore: invariant_booleans
           if (_isDisposed) {
